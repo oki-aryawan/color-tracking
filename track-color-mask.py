@@ -29,7 +29,7 @@ cv2.createTrackbar('max_red', 'Track Bars', 0, 255, do_nothing)
 # Reading image with OpenCV library
 # In this way image is opened already as numpy array
 # WARNING! OpenCV by default reads images in BGR format
-image_BGR = cv2.imread('objects-to-detect.jpg')
+image_BGR = cv2.imread('blue-traffic-sign-to-print.jpg')
 # Resizing image in order to use smaller windows
 image_BGR = cv2.resize(image_BGR, (600, 426))
 
